@@ -1,9 +1,9 @@
 application {
-    name = "mysql"
+    name = "mariadb"
     type = "docker-external"
 }
 
 customization "docker" {
-    image = "mysql"
+    image = "mariadb"
     run_args = "-e MYSQL_ALLOW_EMPTY_PASSWORD=yes -p 3306:3306"
 }
