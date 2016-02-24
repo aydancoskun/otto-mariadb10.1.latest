@@ -9,7 +9,7 @@ application {
     name = "example-app"
 
     dependency {
-        source = "github.com/withassociates/otto-mysql"
+        source = "github.com/aydancoskun/otto-mariadb10.1.latest"
     }
 }
 ```
